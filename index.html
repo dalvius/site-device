@@ -21,17 +21,17 @@
 
         <!--Input поиск по сайту-->
         <div class="navigation-row-wrap">
-          <p>
+          <label class="header-label-search">
             <input class="header-search" type="text" name="search" id="search-site" placeholder="Поиск по сайту">
-          </p>
+          </label>
           <ul class="navigation-user-list">
-            <li class="navigation-user-item">
+            <li class="navigation-user-item navigation-user-login">
               <a href="blank.html">Войти</a>
             </li>
-            <li class="navigation-user-item item-margin-left-auto">
+            <li class="navigation-user-item navigation-user-compare item-margin-left-auto">
               <a href="blank.html">Сравнить</a>
             </li>
-            <li class="navigation-user-item">
+            <li class="navigation-user-item navigation-user-busket">
               <a href="blank.html">Корзина</a>
             </li>
           </ul>
@@ -74,7 +74,7 @@
 
       </nav>
     </div>
-    </header>
+  </header>
 
   <main class="page-main">
 
@@ -85,7 +85,7 @@
         <h2 class="vissually-hidden">Лучшие товары (Слайдер)</h2>
 
           <ul class="special-slider-list">
-            <li class="special-slider-item">
+            <li class="special-slider-item special-slider-item-1">
               <!--SLIDE 1-->
               <div class="special-slider-column">
                 <img src="files/slider-1.png.png" width="384" height="486" alt="Палка для селфи">
@@ -100,13 +100,13 @@
                   <a class="button" href="#">Подробнее</a>
                   <ul class="special-slider-switches">
                     <li>
-                      <button class="control control-active" type="button">1</button>
+                      <button class="control control-active" type="button"><span class="vissually-hidden">1 товар</span></button>
                     </li>
                     <li>
-                      <button class="control" type="button">2</button>
+                      <button class="control" type="button"><span class="vissually-hidden">2 товар</span></button>
                     </li>
                     <li>
-                      <button class="control" type="button">3</button>
+                      <button class="control" type="button"><span class="vissually-hidden">3 товар</span></button>
                     </li>
                   </ul>
                 </div>
@@ -123,77 +123,81 @@
                 </tr>
               </table>
             </li>
+            <li class="special-slider-item special-slider-item-2">
+              <!--SLIDE 2-->
+              <div class="special-slider-column">
+                <img src="files/slider-2.png.png" width="345" height="485" alt="Фитнес-браслеты">
+              </div>
+              <div class="special-slider-column">
+                <h3>Худеем правильно!</h3>
+                <p>
+                  Мотивирующие фитнес-браслеты помогут найти в себе силы
+                  не пропускать занятия и соблюдать диету.
+                </p>
+                <div class="special-slider-block-controls">
+
+                  <a class="button" href="#">Подробнее</a>
+                  <ul class="special-slider-switches">
+                    <li>
+                      <button class="control" type="button"><span class="vissually-hidden">1 товар</span></button>
+                    </li>
+                    <li>
+                      <button class="control control-active" type="button"><span class="vissually-hidden">2 товар</span></button>
+                    </li>
+                    <li>
+                      <button class="control" type="button"><span class="vissually-hidden">3 товар</span></button>
+                    </li>
+                  </ul>
+                </div>
+                <table>
+                  <tr>
+                    <th>48 часов</th>
+                  </tr>
+                  <tr>
+                    <td>Без подзарядки</td>
+                  </tr>
+                </table>
+              </div>
+            </li>
+            <li class="special-slider-item special-slider-item-3">
+              <!--SLIDE 3-->
+              <div class="special-slider-column">
+                <img src="files/slider-3.png.png" width="526" height="334" alt="Палка для селфи">
+              </div>
+              <div class="special-slider-column">
+                <h3>Порхает как бабочка, жалит как пчела!</h3>
+                <p>
+                  Этот обычный, на первый взгляд, квадрокоптер оснащен
+                  мощным лазером, замаскированным под стандартную камеру.
+                </p>
+                <div class="special-slider-block-controls">
+                  <a class="button" href="#">Подробнее</a>
+                  <ul class="special-slider-switches">
+                    <li>
+                      <button class="control" type="button"><span class="vissually-hidden">1 товар</span></button>
+                    </li>
+                    <li>
+                      <button class="control" type="button"><span class="vissually-hidden">2 товар</span></button>
+                    </li>
+                    <li>
+                      <button class="control control-active" type="button"><span class="vissually-hidden">3 товар</span></button>
+                    </li>
+                  </ul>
+                </div>
+                <table>
+                  <tr>
+                    <th>800 м</th>
+                    <th>50 м</th>
+                  </tr>
+                  <tr>
+                    <td>Дальность полета</td>
+                    <td>Радиус поражения</td>
+                  </tr>
+                </table>
+              </div>
+            </li>
           </ul>
         </div>
-        <li class="special-slider-item">
-          <!--SLIDE 2-->
-          <div class="special-slider-column">
-            <img src="files/slider-2.png.png" width="345" height="485" alt="Фитнес-браслеты">
-          </div>
-          <div class="special-slider-column">
-            <h3>Худеем правильно!</h3>
-            <p>
-              Мотивирующие фитнес-браслеты помогут найти в себе силы
-              не пропускать занятия и соблюдать диету.
-            </p>
-            <a class="button" href="#">Подробнее</a>
-            <ul class="special-slider-switches">
-              <li>
-                <button class="control" type="button">1 товар</button>
-              </li>
-              <li>
-                <button class="control control-active" type="button">2 товар</button>
-              </li>
-              <li>
-                <button class="control" type="button">3 товар</button>
-              </li>
-            </ul>
-            <table>
-              <tr>
-                <th>48 часов</th>
-              </tr>
-              <tr>
-                <td>Без подзарядки</td>
-              </tr>
-            </table>
-          </div>
-        </li>
-        <li class="special-slider-item">
-          <!--SLIDE 3-->
-          <div class="special-slider-column">
-            <img src="files/slider-3.png.png" width="526" height="334" alt="Палка для селфи">
-          </div>
-          <div class="special-slider-column">
-            <h3>Порхает как бабочка, жалит как пчела!</h3>
-            <p>
-              Этот обычный, на первый взгляд, квадрокоптер оснащен
-              мощным лазером, замаскированным под стандартную камеру.
-            </p>
-            <a class="button" href="#">Подробнее</a>
-            <ul class="special-slider-switches">
-              <li>
-                <button class="control" type="button">1 товар</button>
-              </li>
-              <li>
-                <button class="control" type="button">2 товар</button>
-              </li>
-              <li>
-                <button class="control control-active" type="button">3 товар</button>
-              </li>
-            </ul>
-            <table>
-              <tr>
-                <th>800 м</th>
-                <th>50 м</th>
-              </tr>
-              <tr>
-                <td>Дальность полета</td>
-                <td>Радиус поражения</td>
-              </tr>
-            </table>
-          </div>
-        </li>
-      </ul>
     </section>
 
     <section class="catalog container">
@@ -289,19 +293,19 @@
     </section>
 
     <section class="partners container">
-      <h2>Партнеры</h2>
+      <h2 class="vissually-hidden">Партнеры</h2>
       <ul>
         <li>
-          <a class="partners-link partners-link-djis" href="blank.html"><span>Djis</span></a>
+          <a class="partners-link partners-link-djis" href="blank.html"><span class="vissually-hidden">Djis</span></a>
         </li>
         <li>
-          <a class="partners-link partners-link-spgadgets" href="blank.html"><span>SPGadhetss</span></a>
+          <a class="partners-link partners-link-spgadgets" href="blank.html"><span class="vissually-hidden">SPGadhetss</span></a>
         </li>
         <li>
-          <a class="partners-link partners-link-gopros" href="blank.html"><span>GoPros</span></a>
+          <a class="partners-link partners-link-gopros" href="blank.html"><span class="vissually-hidden">GoPros</span></a>
         </li>
         <li>
-          <a class="partners-link partners-link-avives" href="blank.html"><span>AVIVEs</span></a>
+          <a class="partners-link partners-link-avives" href="blank.html"><span class="vissually-hidden">AVIVEs</span></a>
         </li>
       </ul>
     </section>
@@ -345,13 +349,13 @@
       <div class="footer-column">
         <div class="footer-navigation-user-list-wrap">
           <ul class="navigation-user-list footer-navigation-user-list">
-            <li class="navigation-user-item footer-navigation-user-item">
+            <li class="navigation-user-item footer-navigation-user-item navigation-user-login">
               <a href="blank.html">Войти</a>
             </li>
-            <li class="navigation-user-item footer-navigation-user-item">
+            <li class="navigation-user-item footer-navigation-user-item navigation-user-compare">
               <a href="blank.html">Сравнить</a>
             </li>
-            <li class="navigation-user-item footer-navigation-user-item">
+            <li class="navigation-user-item footer-navigation-user-item navigation-user-busket">
               <a href="blank.html">Корзина</a>
             </li>
           </ul>
@@ -362,9 +366,32 @@
           <li><a href="blank.html">Контакты</a></li>
         </ul>
         <ul class="footer-socials-links">
-          <li><a href="blank.html">Facebook</a></li>
-          <li><a href="blank.html">Instagram</a></li>
-          <li><a href="blank.html">Twitter</a></li>
+          <li><a class="social-icon-link social-icon-link-facebook" href="blank.html">
+            <span class="vissually-hidden">Facebook</span>
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g opacity="0.3">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M0 16C0 7.163 7.164 0 16 0C24.837 0 32 7.164 32 16C32 24.836 24.837 32 16 32C7.164 32 0 24.837 0 16ZM17.041 9.455H20.062H20.063V6.01H17.042C15.374 6.01 14.021 7.553 14.021 9.455V12.899H11V16.344H14.02V24.954H17.041V16.344H20.062V12.899H17.041V9.455Z" fill="white"/>
+              </g>
+            </svg>
+          </a></li>
+          <li><a class="social-icon-link social-icon-link-instagram" href="blank.html">
+            <span class="vissually-hidden">Instagram</span>
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g opacity="0.3">
+              <path d="M20.916 16.0001C20.916 18.7276 18.705 20.9386 15.9775 20.9386C13.2501 20.9386 11.039 18.7276 11.039 16.0001C11.039 15.6061 11.09 15.2271 11.177 14.8601H10.28V21.6981H21.676V14.8601H20.779C20.865 15.2271 20.916 15.6061 20.916 16.0001Z" fill="white"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M21.676 10.302H18.637V13.341H21.676V10.302ZM18.637 16C18.637 17.466 17.444 18.659 15.978 18.659C14.511 18.659 13.319 17.466 13.319 16C13.319 14.534 14.512 13.341 15.978 13.341C17.444 13.341 18.637 14.534 18.637 16Z" fill="white"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M0 16C0 7.164 7.164 0 16 0C24.837 0 32 7.164 32 16C32 24.837 24.837 32 16 32C7.164 32 0 24.837 0 16ZM21.676 23.977C22.9333 23.9737 23.9517 22.9553 23.955 21.698H23.954V10.302C23.9502 9.04494 22.9321 8.02684 21.675 8.023H10.279C9.02194 8.02684 8.00384 9.04494 8 10.302V21.698C8.0033 22.9553 9.02171 23.9737 10.279 23.977H21.676Z" fill="white"/>
+              </g>
+            </svg>
+          </a></li>
+          <li><a class="social-icon-link social-icon-link-twitter" href="blank.html">
+            <span class="vissually-hidden">Twitter</span>
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g opacity="0.3">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M0 16C0 7.164 7.164 0 16 0C24.837 0 32 7.164 32 16C32 24.837 24.837 32 16 32C7.164 32 0 24.837 0 16ZM12.952 23.511C20.481 23.641 23.693 19.325 23.944 12.809C24.557 12.58 25.467 11.818 25.651 10.855C25.651 10.855 24.975 11.495 24.228 11.33C24.594 11.084 25.159 10.454 25.163 9.621C24.7532 9.74228 24.3507 9.87062 23.948 9.99905C23.6235 10.1025 23.2988 10.2061 22.97 10.306C22.324 9.428 20.909 8.689 19.069 9.168C17.141 9.794 16.128 11.279 15.901 13.493C12.172 13.332 10.081 11.64 8.097 9.85C6.922 11.387 8.303 14.398 9.071 14.631C8.775 14.692 7.922 14.491 7.611 14.174C7.53864 16.1194 8.74981 16.866 9.95825 17.611C10.0692 17.6793 10.1801 17.7477 10.29 17.817C9.70272 17.9101 9.44787 17.8359 9.14257 17.7471C9.09385 17.7329 9.04384 17.7183 8.991 17.704C9.28317 19.8302 10.8028 20.199 11.872 20.4584C12.0032 20.4903 12.1275 20.5204 12.242 20.552C11.369 21.282 9.601 21.878 7.122 21.688C7.923 23.068 12.019 23.511 12.466 23.511H12.952Z" fill="white"/>
+              </g>
+            </svg>
+          </a></li>
         </ul>
         <a class="link-phone-number" href="tel:+74954959595">Тел.: +7 (495) 495-95-95</a>
       </div>
